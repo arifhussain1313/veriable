@@ -43,23 +43,21 @@
 // al
 
 
+const pattern = "PIZZA";
+let output = "";
 
-
-// var word = "pizza";
-// for (let i = 5; i => 1; i--){
-//     for (let j = 1; j => 1; j--){
-//         document.write("pizza");
-//     }
-//     document.write("<br>");
-// alert(word);
-// };
-
-function triangle(n) {
-    let i = n; i >=1; i--{
-        let row ='';
-        for (let j = 1; j <= i; j++) {
-            row += 'pizza';
-        }
-        console.log(row);
-    }
+for (let i = 0; i < pattern.length; i++) {
+    output += pattern.substring(0, pattern.length - i) + "\n";
 }
+
+window.alert(output);
+
+// function triangle(n) {
+//     let i = n; i >=1; i--{
+//         let row ='';
+//         for (let j = 1; j <= i; j++) {
+//             row += 'pizza';
+//         }
+//         console.log(row);
+//     }
+// }
